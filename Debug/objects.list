@@ -94,6 +94,7 @@
 "src/Paddle.o"
 "src/RCC.o"
 "src/Setup.o"
+"src/TIMER.o"
 "src/USART.o"
 "src/main.o"
 "src/stm32f4xx_it.o"

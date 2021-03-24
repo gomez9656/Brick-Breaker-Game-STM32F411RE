@@ -17,7 +17,7 @@
 #include "USART.h"
 #include "Ball.h"
 #include "Display.h"
-
+#include "TIMER.h"
 
 //Array of pointers to 8x8 bit address
 uint8_t *game_matrix[8];
@@ -34,18 +34,17 @@ int main(void)
 
 	setup_RCC();
 	setup_GPIO();
+	TIMER3_Init();
 	setup_USART();
 
 	start_ball();
 
-
-
 	while(1){
 
 		print_display(game_matrix);
-		//move_ball(game_matrix);
 	}
 }
+
 
 void Error_handler(void){
 	while(1);

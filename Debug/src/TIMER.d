@@ -1,4 +1,4 @@
-src/main.o: ../src/main.c \
+src/TIMER.o: ../src/TIMER.c \
  C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/CMSIS/device/stm32f4xx.h \
  C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/CMSIS/device/stm32f411xe.h \
  C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/CMSIS/core/core_cm4.h \
@@ -60,13 +60,8 @@ src/main.o: ../src/main.c \
  C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
  C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
  C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/Utilities/STM32F4xx-Nucleo/stm32f4xx_nucleo.h \
- C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/Setup.h \
- C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/RCC.h \
- C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/GPIO.h \
  C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/USART.h \
- C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/Ball.h \
- C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/Display.h \
- C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/TIMER.h
+ C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/Ball.h
 
 C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/CMSIS/device/stm32f4xx.h:
 
@@ -190,16 +185,6 @@ C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/HAL_Driver/Inc/stm32f4xx_hal_
 
 C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/Utilities/STM32F4xx-Nucleo/stm32f4xx_nucleo.h:
 
-C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/Setup.h:
-
-C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/RCC.h:
-
-C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/GPIO.h:
-
 C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/USART.h:
 
 C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/Ball.h:
-
-C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/Display.h:
-
-C:/Users/juanp/Documents/RTOS/Brcik-Breaker-Game-2/inc/TIMER.h:

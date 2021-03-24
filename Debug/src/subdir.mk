@@ -10,6 +10,7 @@ C_SRCS += \
 ../src/Paddle.c \
 ../src/RCC.c \
 ../src/Setup.c \
+../src/TIMER.c \
 ../src/USART.c \
 ../src/main.c \
 ../src/stm32f4xx_it.c \
@@ -23,6 +24,7 @@ OBJS += \
 ./src/Paddle.o \
 ./src/RCC.o \
 ./src/Setup.o \
+./src/TIMER.o \
 ./src/USART.o \
 ./src/main.o \
 ./src/stm32f4xx_it.o \
@@ -36,6 +38,7 @@ C_DEPS += \
 ./src/Paddle.d \
 ./src/RCC.d \
 ./src/Setup.d \
+./src/TIMER.d \
 ./src/USART.d \
 ./src/main.d \
 ./src/stm32f4xx_it.d \
