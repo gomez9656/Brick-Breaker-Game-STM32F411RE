@@ -11,9 +11,11 @@
 #include "Paddle.h"
 
 GPIO_InitTypeDef led, left_button, right_button, rows, columns;
-
+uint8_t *paddle_position = (uint8_t*)0x20000300;
 
 void setup_GPIO(){
+
+	*paddle_position = 3;
 
 	setup_led();
 	setup_left_button();
@@ -100,6 +102,8 @@ void EXTI0_IRQHandler(void){
 	HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_0);
 
 	move_paddle(LEFT);
+	*paddle_position = *paddle_position - 1;
+
 }
 
 void EXTI1_IRQHandler(void){
@@ -107,10 +111,11 @@ void EXTI1_IRQHandler(void){
 	HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_1);
 
 	move_paddle(RIGHT);
+	*paddle_position = *paddle_position + 1;
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN){
 
-	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+	//HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 }
 
